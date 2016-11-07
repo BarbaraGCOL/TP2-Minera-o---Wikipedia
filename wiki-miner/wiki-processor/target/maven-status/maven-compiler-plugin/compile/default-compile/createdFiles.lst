@@ -1,0 +1,8 @@
+br\com\ufmg\wikipedia\preprocessor\Preprocessor.class
+br\com\ufmg\wikipedia\processor\StopWords.class
+br\com\ufmg\wikipedia\processor\Stemmer.class
+br\com\ufmg\wikipedia\output\Reader.class
+br\com\ufmg\wikipedia\preprocessor\Reader.class
+br\com\ufmg\wikipedia\output\CSVFileWriter.class
+br\com\ufmg\wikipedia\processor\Processor.class
+br\com\ufmg\wikipedia\processor\StanfordNER.class

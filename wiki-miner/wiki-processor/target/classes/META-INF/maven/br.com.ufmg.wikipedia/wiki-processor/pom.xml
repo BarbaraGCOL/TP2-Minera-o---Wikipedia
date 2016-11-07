@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>br.com.ufmg.wikipedia</groupId>
+		<artifactId>wiki-miner</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>wiki-processor</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>info.bliki.wiki</groupId>
+			<artifactId>bliki-core</artifactId>
+			<version>3.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.fracpete</groupId>
+			<artifactId>ptstemmer</artifactId>
+			<version>2010.1.13</version>
+		</dependency>
+		<dependency>
+			<groupId>edu.washington.cs.knowitall.stanford-corenlp</groupId>
+			<artifactId>stanford-ner-models</artifactId>
+			<version>1.3.5</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
+		<dependency>
+			<groupId>edu.stanford.nlp</groupId>
+			<artifactId>stanford-corenlp</artifactId>
+			<version>3.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-snowball</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+
+<dependency>
+    <groupId>net.sf.opencsv</groupId>
+    <artifactId>opencsv</artifactId>
+    <version>2.3</version>
+</dependency>
+<dependency>
+    <groupId>dom4j</groupId>
+    <artifactId>dom4j</artifactId>
+    <version>1.6.1</version>
+</dependency>
+
+	</dependencies>
+</project>
